@@ -35,15 +35,15 @@ else:
 	elif os.name in ("nt", "dos", "ce"):											# Check the os, if it's windows then
 		myping = "ping -n 2 "															# This is the ping command
 	
-	if 'dms' in sys.argv:																	# If the argument passed is dms then
-	  appgroup = 'dms'																	# Set the variable appgroup to dms
-	elif 'swaps' in sys.argv:															# Else if the argment passed is swaps then
-	  appgroup = 'swaps'																# Set the variable appgroup to swaps
-	  
-	if '155' in sys.argv:																	# If the argument passed is 155 then
-	  site = '155'																			# Set the variable site to 155
-	elif 'bromley' in sys.argv:															# Else if the argument passed is bromley
-	  site = 'bromley'																	# Set the variable site to bromley
+#	if 'dms' in sys.argv:																	# If the argument passed is dms then
+#	  appgroup = 'dms'																	# Set the variable appgroup to dms
+#	elif 'swaps' in sys.argv:															# Else if the argment passed is swaps then
+#	  appgroup = 'swaps'																# Set the variable appgroup to swaps
+#	  
+#	if '155' in sys.argv:																	# If the argument passed is 155 then
+#	  site = '155'																			# Set the variable site to 155
+#	elif 'bromley' in sys.argv:															# Else if the argument passed is bromley
+#	  site = 'bromley'																	# Set the variable site to bromley
 
 filename = sys.argv[0]																# Sets a variable for the script name
 logdir = os.getenv("logs")															# Set the variable logdir by getting the OS environment logs
